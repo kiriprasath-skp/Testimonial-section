@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Testimonials — Loved by teams everywhere</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="testimonials">
+  <div class="blob b1"></div>
+  <div class="blob b2"></div>
+
+  <div class="wrap">
+    <div class="header">
+      <span class="kicker">Testimonials</span>
+      <h1>Loved by teams <span class="grad">everywhere</span>.</h1>
+      <p class="sub">Real feedback from people who use it every day.</p>
+    </div>
+
+    <div class="carousel" role="region" aria-roledescription="carousel" aria-label="Customer testimonials">
+      <button type="button" class="nav prev" id="prevBtn" aria-label="Previous testimonial">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+
+      <div class="track" id="track" tabindex="0" aria-live="polite">
+        <article class="t-card" data-accent="coral">
+          <span class="quote-mark">&ldquo;</span>
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p class="quote">This cut our onboarding time in half. The team was shipping confidently within the first week of switching over.</p>
+          <div class="person">
+            <div class="avatar">AM</div>
+            <div><strong>Aarav Mehta</strong><span>Product Manager, Lumen Labs</span></div>
+          </div>
+        </article>
+
+        <article class="t-card" data-accent="indigo">
+          <span class="quote-mark">&ldquo;</span>
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p class="quote">Support actually responds. That alone put it ahead of the three other tools we trialed before this one.</p>
+          <div class="person">
+            <div class="avatar">SA</div>
+            <div><strong>Sofia Alvarez</strong><span>Founder, Brightside Studio</span></div>
+          </div>
+        </article>
+
+        <article class="t-card" data-accent="teal">
+          <span class="quote-mark">&ldquo;</span>
+          <div class="stars" aria-label="4 out of 5 stars">★★★★☆</div>
+          <p class="quote">We evaluated five platforms. This was the only one that didn't need a six-week onboarding to get real value from.</p>
+          <div class="person">
+            <div class="avatar">DO</div>
+            <div><strong>Daniel Osei</strong><span>Engineering Lead, Northwind Systems</span></div>
+          </div>
+        </article>
+
+        <article class="t-card" data-accent="amber">
+          <span class="quote-mark">&ldquo;</span>
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p class="quote">Our campaign turnaround dropped from days to hours. It's rare that a tool fits the workflow this cleanly.</p>
+          <div class="person">
+            <div class="avatar">PN</div>
+            <div><strong>Priya Nair</strong><span>Marketing Director, Solace Co.</span></div>
+          </div>
+        </article>
+
+        <article class="t-card" data-accent="violet">
+          <span class="quote-mark">&ldquo;</span>
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p class="quote">Reliable, fast, and the kind of product that gets out of your way. Exactly what an engineering team wants.</p>
+          <div class="person">
+            <div class="avatar">MC</div>
+            <div><strong>Marcus Chen</strong><span>CTO, Vertex Robotics</span></div>
+          </div>
+        </article>
+
+        <article class="t-card" data-accent="sky">
+          <span class="quote-mark">&ldquo;</span>
+          <div class="stars" aria-label="4 out of 5 stars">★★★★☆</div>
+          <p class="quote">Rolled it out across four store locations in a weekend. The team picked it up without any real training.</p>
+          <div class="person">
+            <div class="avatar">EP</div>
+            <div><strong>Elena Petrova</strong><span>Operations Lead, Haven Retail</span></div>
+          </div>
+        </article>
+      </div>
+
+      <button type="button" class="nav next" id="nextBtn" aria-label="Next testimonial">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+    </div>
+
+    <div class="dots" id="dots" aria-label="Select testimonial"></div>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
